@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680602049126",
+    "project_id": "titemag-17095",
+    "storage_bucket": "titemag-17095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680602049126:android:bbb9e63bd5f39282afaba7",
+        "android_client_info": {
+          "package_name": "com.example.titemag"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAYcvIb6bHXRB-8WGYGmoK0wMcduoq8Og"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

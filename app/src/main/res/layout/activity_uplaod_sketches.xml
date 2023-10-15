@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tit"
+    tools:context=".UplaodSketches">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/red_border"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#808080"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Uplaod Sketches"
+                android:textAlignment="center"
+                android:textColor="@color/tit"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/upload_image_sketches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/baseline_upload_file_24" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/upload_sketches_sketch_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/red_border"
+                android:gravity="start|center_vertical"
+                android:hint="Theme of Sketch"
+                android:textSize="18dp"
+                android:padding="16dp"
+                android:textColor="@color/tit"
+                android:textColorHint="#FF7E1D03" />
+
+            <EditText
+                android:id="@+id/upload_sketches_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/red_border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter your Name"
+                android:padding="16dp"
+                android:textColor="@color/tit"
+                android:textColorHint="#FF7E1D03" />
+
+            <EditText
+                android:id="@+id/upload_sketches_enrollment"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/red_border"
+                android:gravity="start|center_vertical"
+                android:hint="Enter Enrollment Number"
+                android:padding="16dp"
+                android:textColor="@color/tit"
+                android:textColorHint="#FF7E1D03" />
+
+            <Button
+                android:id="@+id/saveSketches_Button"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/red_border"
+                android:text="Save"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</ScrollView>

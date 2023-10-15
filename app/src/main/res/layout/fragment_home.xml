@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B12904"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/red_border"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SHIKHAR"
+                        android:fontFamily="@font/aladin"
+                        android:layout_marginStart="25dp"
+                        android:textSize="50sp"
+                        android:textColor="@color/tit"
+                        android:gravity=""/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Reaching new height of creativity and knowledge✌️😀"
+                        android:fontFamily="@font/aladin"
+                        android:textStyle="bold"
+                        android:textColor="@color/tit"
+                        android:layout_marginTop="-15dp"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center"
+                        android:layout_marginStart="25dp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            >
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/viewPager2"
+                android:paddingEnd="30dp"
+                android:paddingStart="30dp"/>
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/red_border"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp"
+            android:layout_marginTop="5dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="NOTICE"
+                android:textColor="@color/tit"
+
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/red_border"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="-127dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10sp"
+                    android:background="@color/white"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:text="Hii ,This is inform to all the people that The submission for all the documents such as painting, Article, Sketches poems and are due on 12 dec. so all people are requested to submit their own by 12dec Hii ,This is inform to all the people that The submission of all the documents such that painting, Article, Sketches poems and are due on 12 dec. "
+                    android:textColor="@color/tit"
+                    android:textSize="15sp" />
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/red_border"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="Vision of the institute"
+                android:textColor="@color/tit"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/red_border"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:padding="5sp"
+                android:text="
+To become a “Centre of Excellence” for quality education in the field of engineering, research and management so as to produce globally competent and socially responsible professionals, who can contribute in technological and socio-economic development of the nation as a whole and region in particular."
+                android:textColor="@color/tit"
+                android:textSize="15sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/red_border"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aladin"
+                android:gravity="center"
+                android:text="Mission of the institute"
+                android:textColor="@color/tit"
+                android:textSize="30sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/red_border"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10sp"
+                    android:text="M.1 : To educate students with deep professional knowledge through innovative teaching-learning process and to make them aware of cuttingedge technology so as to become capable of understanding and addressing the issues of society, state and the country."
+                    android:textColor="@color/tit"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10sp"
+                    android:text="M.2 : To create in- house facilities for research and innovation to provide solution to the industrial problems."
+                    android:textColor="@color/tit"
+                    android:textSize="15sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="10sp"
+                    android:text="M.3 : To inculcate right human values and professional ethics, leadership qualities, communication and entrepreneurship skills in students to meet the need of society."
+                    android:textColor="@color/tit"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

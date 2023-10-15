@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    app:contentPadding="10dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="20dp"
+    android:background="@drawable/red_border"
+    android:backgroundTint="#808080">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout_painting"
+        >
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:gravity="center"
+                android:background="@drawable/red_border">
+                <LinearLayout
+                    android:layout_width="280dp"
+                    android:layout_height="380dp"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/view_painting_image_image"
+                        android:scaleType="fitXY"
+                        android:fitsSystemWindows="true"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/red_border"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/view_painting_image_name"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/tit"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="Theme"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/view_painting_image_student_name"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/tit"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                android:text="Student name"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/view_painting_image_student_enrollment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Student enrollment"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+                android:textColor="@color/tit"
+                android:textSize="24sp"
+                android:textStyle="normal|bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
